@@ -1,0 +1,19 @@
+{
+  "name": "nomnomramen.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kurt Kemple",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.18.1",
+    "esm": "^3.2.25",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node -r esm index.js",
+    "dev": "nodemon -r esm index.js"
+  }
+}
