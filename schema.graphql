@@ -1,3 +1,15 @@
 type Query {
-  hello: String!
+  products: ProductConnection!
+}
+
+type ProductConnection {
+  hasMore: Boolean
+  items: [Product!]!
+}
+
+type Product {
+  id: ID!
+  name: String!
+  description: String
+  images: [String!]!
 }
