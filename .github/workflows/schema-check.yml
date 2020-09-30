@@ -17,7 +17,7 @@ jobs:
           title: Check Against Studio Schema
           graph: NomNomRamen
           variant: current
-          localSchemaFile: 'server/schema.graphql'
+          localSchemaFile: './schema.graphql'
           validationPeriod: P2W
           key: ${{ secrets.APOLLO_STUDIO_KEY }}
         env:
